@@ -3,6 +3,7 @@ GEM
   specs:
     addressable (2.5.1)
       public_suffix (~> 2.0, >= 2.0.2)
+    awesome_print (1.8.0)
     azure (0.7.9)
       addressable (~> 2.3)
       azure-core (~> 0.1)
@@ -46,6 +47,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  awesome_print
   azure
   pry-byebug
 

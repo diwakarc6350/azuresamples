@@ -1,6 +1,7 @@
 require './azure_storage_helper.rb'
 
 begin
+  binding.pry
   blob, content = @azure_blob_service.get_blob('testcontainer', 'sample.txt')
   File.open('sample.txt', 'wb') {|f| f.write(content)}
 rescue Exception => e

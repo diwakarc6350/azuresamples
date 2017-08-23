@@ -1,5 +1,6 @@
 require "azure"
 require "pry-byebug"
+require 'awesome_print'
 require "./azure_access.rb"
 
 # I have not included this file in the repo it has my personal access information
